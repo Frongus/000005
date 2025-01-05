@@ -1,37 +1,34 @@
 {
-  "item": [
+  "items": [
     {
-      "weblink": "https://www.youtube.com/",
-      "iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png",
-      "name": "youtube.com"
-    }
-  ],
-  "item": [
+      "weblink": "https://www.westfalia.de/",
+      "iconUrl": "https://www.westfalia.de/media/21/21/43/1634735004/favicon[1].ico?ts=1673358442",
+      "name": "Westfalia.de"
+    },
     {
-      "weblink": "https://www.youtube.com/",
-      "iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png",
-      "name": "youtube.com"
-    }
-  ],
-  "item": [
+      "weblink": "https://www.shop24direct.de/?by=OxS24dAtOffUrl_Shop_24_Direct",
+      "iconUrl": "https://www.shop24direct.de/build/AcdmBundle/skins/frontend/acdmshops/shop24direct/images/touch-icon-57x57.png",
+      "name": "shop-24-direct.de"
+    },
     {
-      "weblink": "https://www.youtube.com/",
-      "iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png",
-      "name": "youtube.com"
-    }
-  ],
-  "item": [
+      "weblink": "https://www.fondsexklusiv.de/",
+      "iconUrl": "https://www.fondsexklusiv.de/wp-content/uploads/2022/05/cropped-F-fonds-32x32.jpg",
+      "name": "fondsexklusiv.de"
+    },
     {
-      "weblink": "https://www.youtube.com/",
-      "iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png",
-      "name": "youtube.com"
-    }
-  ],
-  "item": [
+      "weblink": "https://www.morningstar.de/de/",
+      "iconUrl": "https://euim.mstar.com/images/favicon.ico",
+      "name": "morningstar.de"
+    },
     {
-      "weblink": "https://www.youtube.com/",
-      "iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png",
-      "name": "youtube.com"
+      "weblink": "https://www.xn--fuball-vorort-cdb.de/",
+      "iconUrl": "https://www.xn--fuball-vorort-cdb.de/logos/logo_10.png",
+      "name": "fuball-vorort.de"
+    },
+    {
+      "weblink": "https://www.eishockeynews.de/",
+      "iconUrl": "https://eishockeynews.de/global/images/favicon.ico?appearanceName=default&output=mobile&timestamp=1730814321648",
+      "name": "Eishokey-News.de"
     }
   ]
 }
