@@ -1,14 +1,9 @@
 {
   "item": [
-    {"weblink": "www.youtube.com"},
-    {"iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png"}
-  ],
-  "item": [
-    {"weblink": "www.youtube.com"},
-    {"iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png"}
-  ],
-  "item": [
-    {"weblink": "www.youtube.com"},
-    {"iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png"}
+    {
+      "weblink": "www.youtube.com",
+      "iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png",
+      "name": "youtube.com"
+    }
   ]
 }
