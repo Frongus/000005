@@ -83,10 +83,20 @@ body {
     text-align: center;
     align-content: center;
     flex: 0 0 100%; /* Each item takes up full viewport height and width */
-    width: 95%; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
+    width: 40%; /* Full viewport width */
+    height: 50%; /* Full viewport height */
     scroll-snap-align: start; /* Ensures snapping to the start of each item */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#info {
+    position: absolute;
+    padding:0;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0;
+    text-align: center;
+    z-index: 1000;
 }

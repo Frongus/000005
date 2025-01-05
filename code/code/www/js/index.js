@@ -14,8 +14,9 @@ async function loadItems() {
     fetch(gitUrl, {
 
     }).then(response => response.json()).then((data) => {
-        console.log(data.item);
-        const dataItems = data.item;
+        console.log(data)
+        console.log(data.items);
+        const dataItems = data.items;
         dataItems.forEach(element => {
             console.log(element)
             const name = element.name;
