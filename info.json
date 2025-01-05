@@ -19,6 +19,11 @@
       "weblink": "https://www.morningstar.de/de/",
       "iconUrl": "https://euim.mstar.com/images/favicon.ico",
       "name": "morningstar.de"
+    },
+    {
+      "weblink": "https://www.xn--fuball-vorort-cdb.de/",
+      "iconUrl": "https://www.xn--fuball-vorort-cdb.de/logos/logo_10.png",
+      "name": "fuball-vorort.de"
     }
   ]
 }
