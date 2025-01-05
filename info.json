@@ -6,14 +6,19 @@
       "name": "Westfalia.de"
     },
     {
-      "weblink": "https://www.youtube.com/",
-      "iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png",
-      "name": "youtube.com"
+      "weblink": "https://www.shop24direct.de/?by=OxS24dAtOffUrl_Shop_24_Direct",
+      "iconUrl": "https://www.shop24direct.de/build/AcdmBundle/skins/frontend/acdmshops/shop24direct/images/touch-icon-57x57.png",
+      "name": "shop-24-direct.de"
     },
     {
-      "weblink": "https://www.youtube.com/",
-      "iconUrl": "https://www.youtube.com/s/desktop/26a583e4/img/logos/favicon_144x144.png",
-      "name": "youtube.com"
+      "weblink": "https://www.fondsexklusiv.de/",
+      "iconUrl": "https://www.fondsexklusiv.de/wp-content/uploads/2022/05/cropped-F-fonds-32x32.jpg",
+      "name": "fondsexklusiv.de"
+    },
+    {
+      "weblink": "https://www.morningstar.de/de/",
+      "iconUrl": "https://euim.mstar.com/images/favicon.ico",
+      "name": "morningstar.de"
     }
   ]
 }
