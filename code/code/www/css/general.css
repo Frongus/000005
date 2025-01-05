@@ -1,0 +1,402 @@
+:root {
+    --white: white;
+    --black: black;
+    --red: red;
+
+    --backgroundColorMain: #272727;
+    --backgroundColorDataContainer: #74009e;
+    --backgroundColorContrast: #2c2c2c;
+    --mainTextColor: #FBF4F4;
+
+    --btnHoverBackgroundColor: #CE00C8;
+    --btnPrimaryColor: #FF29F8;
+    --btnSencondaryColor: #a71ea2;
+
+    --borderColorContarst: #610b82;
+    --borderColorBase: #5e5e5e;
+
+    --containerColorPrimary: #74009e;
+    --containerColorPrimaryD: #610b82;
+    --containerColorPrimaryDD: #4e1067;
+    --containerColorPrimaryDDD: #3c114d;
+    --containerColorPrimaryDDDD: #2a1034;
+
+    --space-xxs: 0.25rem;
+    --space-xs: 0.5rem;
+    --space-sm: 0.75rem;
+    --space-md: 1.25rem;
+    --space-lg: 2rem;
+    --space-xl: 3.25rem;
+    --space-xxl: 5.25rem;
+
+    --borderRadius-xxs: 0.25rem;
+    --borderRadius-xs: 0.5rem;
+    --borderRadius-sm: 0.75rem;
+    --borderRadius-md: 1.25rem;
+    --borderRadius-lg: 2rem;
+    --borderRadius-xl: 3.25rem;
+    --borderRadius-xxl: 5.25rem;
+    --borderRadius-circle: 50%;
+
+    --font-xxs: 0.25rem;
+    --font-xs: 0.5rem;
+    --font-sm: 0.75rem;
+    --font-md: 1.25rem;
+    --font-lg: 2rem;
+    --font-xl: 3.25rem;
+    --font-xxl: 5.25rem;
+
+    --transitionDuration: 0.3s;
+    --transitionType: ease-in-out;
+
+    --animationDurationSlow: 6s;
+    --animationDurationMedium: 4s;
+    --animationDurationFast: 2s;
+    --animationDurationXFast: 1s;
+
+    --sizeMedium: 20rem;
+}
+
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-optical-sizing: auto;
+    color: var(--mainTextColor);
+    transition: all var(--transitionType) var(--transitionDuration);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--backgroundColorMain);
+}
+
+a {
+    text-decoration: none;
+    color: var(--mainTextColor);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.lightTransparent {
+    opacity: 0.75;
+}
+
+.fontSizeSM {
+    font-size: var(--font-sm);
+}
+
+.fontSizeXS {
+    font-size: var(--font-xs);
+}
+
+
+.fontSizeXXS {
+    font-size: var(--font-xxs);
+}
+
+
+.fontSizeMD {
+    font-size: var(--font-md);
+}
+
+
+.fontSizeLG {
+    font-size: var(--font-lg);
+}
+
+
+.fontSizeXL {
+    font-size: var(--font-xl);
+}
+
+.fontSizeXXL {
+    font-size: var(--font-xxl);
+}
+
+
+#paddingXXSTop {
+    padding-top: var(--space-xxs);
+}
+
+#paddingXSTop {
+    padding-top: var(--space-xs);
+}
+
+#paddingSMTop {
+    padding-top: var(--space-sm);
+}
+
+#paddingMDTop {
+    padding-top: var(--space-md);
+}
+
+#paddingLGTop {
+    padding-top: var(--space-lg);
+}
+
+#paddingXLTop {
+    padding-top: var(--space-xl);
+}
+
+#paddingXXLTop {
+    padding-top: var(--space-xxl);
+}
+
+#btnPrimary {
+    border: solid var(--btnPrimaryColor) 1px;
+    border-radius: var(--borderRadius-xs);
+    padding-top: var(--space-xs);
+    padding-bottom: var(--space-xs);
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+    background-color: var(--backgroundColorMain);
+}
+
+#btnPrimary:hover {
+    color: var(--black);
+    cursor: pointer;
+    background-color: var(--btnHoverBackgroundColor);
+}
+
+#btnSecondary {
+    border: solid var(--btnSencondaryColor) 1px;
+    border-radius: var(--borderRadius-xs);
+    padding-top: var(--space-xs);
+    padding-bottom: var(--space-xs);
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+}
+
+#btnSecondary:hover {
+    color: var(--black);
+    cursor: pointer;
+    background-color: var(--btnHoverBackgroundColor);
+}
+
+.btnPrimary {
+    border: solid var(--btnPrimaryColor) 1px;
+    border-radius: var(--borderRadius-xs);
+    padding-top: var(--space-xs);
+    padding-bottom: var(--space-xs);
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+    background-color: var(--backgroundColorMain);
+}
+
+.btnPrimary:hover {
+    color: var(--black);
+    cursor: pointer;
+    background-color: var(--btnHoverBackgroundColor);
+}
+
+.btnSecondary {
+    border: solid var(--btnSencondaryColor) 1px;
+    background-color: var(--backgroundColorMain);
+    border-radius: var(--borderRadius-xs);
+    padding-top: var(--space-xs);
+    padding-bottom: var(--space-xs);
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+}
+
+.btnSecondary:hover {
+    color: var(--black);
+    cursor: pointer;
+    background-color: var(--btnHoverBackgroundColor);
+}
+
+#toggleBtn {
+    width: var(--space-xxl);
+}
+
+.symActive {
+    -webkit-filter: opacity(.8) drop-shadow(0 0 0 var(--red));
+    filter: opacity(.8) drop-shadow(0 0 0 var(--red));
+}
+
+.navBarTop ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0 auto; 
+    display: inline-block; 
+}
+
+.navBarTop ul li {
+    display: inline; 
+    padding-right: var(--space-sm); 
+}
+
+.navBarTop ul li a {
+    display: inline;
+    text-decoration: none; 
+}
+
+.navBarTop {
+    width: 100%; 
+    position: fixed;
+    padding-top: var(--space-lg); 
+    text-align: center; 
+    font-weight: bolder; 
+    z-index: 1000;
+}
+
+.navBarTop .currentPage {
+    opacity: .75;
+    font-weight: bolder;
+}
+
+.navBarBottom ul li {
+    text-align: center;
+    display: inline;
+    font-size: var(--font-sm);
+    padding-right: var(--space-md);
+    padding-left: var(--space-md);
+}
+
+.navBarBottom ul li a {
+    text-align: center;
+}
+
+.navBarBottom {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: .75;
+    position: fixed;
+    left: -8%;
+    top: 95%;
+    transform: translate(-2%, -50%);
+}
+
+@keyframes pulsating {
+    0% {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulsatingAnimation {
+    animation: pulsating var(--animationDurationMedium) infinite;
+}
+
+.pulsatingAnimationFast {
+    animation: pulsating var(--animationDurationXFast) infinite;
+}
+
+@media (width <=350px) {
+    * {
+        font-size: 115%;
+        width: 80%;
+    }
+}
+
+@media (width <=380px) {
+    * {
+        font-size: 110%;
+        width: 95%;
+    }
+}
+
+@media (width <=500px) {
+    * {
+        font-size: 105%;
+        width: 90%;
+    }
+}
+
+@media (width >=450px) {
+    .navBarBottom {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-weight: bolder;
+        position: fixed;
+        left: 2%;
+        top: 95%;
+        transform: translate(2%, -50%);
+    }
+}
+
+.fadeInUpBig {
+    -webkit-animation-name: fadeInUpBig;
+    animation-name: fadeInUpBig;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUpBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 2000px, 0);
+        transform: translate3d(0, 2000px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUpBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 2000px, 0);
+        transform: translate3d(0, 2000px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--backgroundColorMain);
+    opacity: .75;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner {
+    opacity: 1;
+    border: 4px solid var(--backgroundColorMain);
+    border-top: 4px solid var(--btnPrimaryColor);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 0.5s linear infinite;
+}
+
+/* Spinner keyframes */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,92 @@
+:root {
+    --white: white;
+    --black: black;
+    --red: red;
+
+    --backgroundColorMain: #272727;
+    --backgroundColorDataContainer: #74009e;
+    --bacgroundColorContrast: #2c2c2c;
+    --mainTextColor: #FBF4F4;
+
+    --btnHoverBackgroundColor: #CE00C8;
+    --btnPrimaryColor: #FF29F8;
+    --btnSencondaryColor: #a71ea2;
+
+    --borderColorContarst: #610b82;
+    --borderColorBase: #5e5e5e;
+
+    --containerColorPrimary: #74009e;
+    --containerColorPrimaryD: #610b82;
+    --containerColorPrimaryDD: #4e1067;
+    --containerColorPrimaryDDD: #3c114d;
+    --containerColorPrimaryDDDD: #2a1034;
+
+    --space-xxs: 0.25rem;
+    --space-xs: 0.5rem;
+    --space-sm: 0.75rem;
+    --space-md: 1.25rem;
+    --space-lg: 2rem;
+    --space-xl: 3.25rem;
+    --space-xxl: 5.25rem;
+
+    --borderRadius-xxs: 0.25rem;
+    --borderRadius-xs: 0.5rem;
+    --borderRadius-sm: 0.75rem;
+    --borderRadius-md: 1.25rem;
+    --borderRadius-lg: 2rem;
+    --borderRadius-xl: 3.25rem;
+    --borderRadius-xxl: 5.25rem;
+    --borderRadius-circle: 50%;
+
+    --font-xxs: 0.25rem;
+    --font-xs: 0.5rem;
+    --font-sm: 0.75rem;
+    --font-md: 1.25rem;
+    --font-lg: 2rem;
+    --font-xl: 3.25rem;
+    --font-xxl: 5.25rem;
+
+    --transitionDuration: 0.3s;
+    --transitionType: ease-in-out;
+
+    --animationDurationSlow: 6s;
+    --animationDurationMedium: 4s;
+    --animationDurationFast: 2s;
+    --animationDurationXFast: 1s;
+
+    --sizeMedium: 20rem;
+}
+
+body {
+    overflow: hidden; /* Prevents default scrollbars */
+}
+
+#indexMainContent {
+    align-items: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 100%; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    scroll-snap-type: y mandatory; /* Snap effect */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for mobile devices */
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+    align-content: center;
+}
+
+#indexMainContent::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in WebKit-based browsers */
+}
+
+.scrollItem {
+    text-align: center;
+    align-content: center;
+    flex: 0 0 100%; /* Each item takes up full viewport height and width */
+    width: 95%; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    scroll-snap-align: start; /* Ensures snapping to the start of each item */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
